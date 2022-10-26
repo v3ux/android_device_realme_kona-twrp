@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/realme/bitra
+DEVICE_PATH := device/realme/kona
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -45,7 +45,7 @@ ENABLE_CPUSETS := true
 ENABLE_SCHEDBOOST := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := RE5473,RE879AL1,RMX3370,bitra
+TARGET_OTA_ASSERT_DEVICE := RMX3371,kona
 
 # Bootloader
 PRODUCT_PLATFORM := kona
